@@ -1,0 +1,47 @@
+.question-container {
+    margin: 16px;
+  }
+  
+  .option-button {
+    margin: 8px 0;
+    --border-radius: 8px;
+  }
+  
+  .timer-container {
+    margin: 16px;
+    text-align: center;
+  }
+  
+  .timer-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .score-container {
+    text-align: center;
+    margin: 16px;
+  }
+  
+  .loading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .feedback-card {
+    margin-top: 16px;
+  }

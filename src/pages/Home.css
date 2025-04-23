@@ -1,0 +1,39 @@
+.card-container {
+    margin: 20px;
+  }
+  
+  .welcome-header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  ion-button ion-icon {
+    margin-right: 8px;
+  }
+  
+  .quiz-list-item {
+    --padding-start: 16px;
+    --padding-end: 16px;
+    --padding-top: 12px;
+    --padding-bottom: 12px;
+  }
+  
+  .new-quiz-button {
+    margin-top: 20px;
+  }
+  
+  .ranking-button {
+    margin-top: 16px;
+  }
+  
+  ion-card {
+    margin: 16px 0;
+  }
+  
+  ion-card-header {
+    padding-bottom: 8px;
+  }
+  
+  ion-card-content {
+    padding-top: 8px;
+  }

@@ -1,0 +1,40 @@
+.trophy-icon {
+    margin-right: 8px;
+    font-size: 1.5rem;
+    vertical-align: middle;
+  }
+  
+  .rank-1 {
+    --background: rgba(255, 215, 0, 0.1);
+  }
+  
+  .rank-2 {
+    --background: rgba(192, 192, 192, 0.1);
+  }
+  
+  .rank-3 {
+    --background: rgba(205, 127, 50, 0.1);
+  }
+  
+  ion-badge[color="gold"] {
+    --ion-color-base: #ffd700;
+    --ion-color-contrast: #000;
+  }
+  
+  ion-badge[color="silver"] {
+    --ion-color-base: #c0c0c0;
+    --ion-color-contrast: #000;
+  }
+  
+  ion-badge[color="bronze"] {
+    --ion-color-base: #cd7f32;
+    --ion-color-contrast: #fff;
+  }
+  
+  ion-card {
+    margin: 16px;
+  }
+  
+  ion-button {
+    margin: 16px;
+  }

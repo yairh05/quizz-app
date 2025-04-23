@@ -1,7 +1,6 @@
 import { Redirect, Route } from 'react-router-dom';
 import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import Home from './pages/Home';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -19,19 +18,14 @@ import '@ionic/react/css/text-transformation.css';
 import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
 
-/**
- * Ionic Dark Mode
- * -----------------------------------------------------
- * For more info, please see:
- * https://ionicframework.com/docs/theming/dark-mode
- */
-
-/* import '@ionic/react/css/palettes/dark.always.css'; */
-/* import '@ionic/react/css/palettes/dark.class.css'; */
-import '@ionic/react/css/palettes/dark.system.css';
-
 /* Theme variables */
 import './theme/variables.css';
+
+/* Pages */
+import Home from './pages/Home';
+import Game from './pages/Game';
+import Result from './pages/Result';
+import Ranking from './pages/Ranking';
 
 setupIonicReact();
 
@@ -41,6 +35,15 @@ const App: React.FC = () => (
       <IonRouterOutlet>
         <Route exact path="/home">
           <Home />
+        </Route>
+        <Route exact path="/game/:quizId">
+          <Game />
+        </Route>
+        <Route exact path="/result">
+          <Result />
+        </Route>
+        <Route exact path="/ranking">
+          <Ranking />
         </Route>
         <Route exact path="/">
           <Redirect to="/home" />
